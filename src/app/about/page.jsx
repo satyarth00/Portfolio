@@ -48,13 +48,13 @@ const skills=['HTML','CSS','Tailwind','JavaScript','React','NextJs','Redux','Pos
                         <p className="text-lg">
                 Satyarth is a driven and accomplished Computer Science Engineer with a Bachelor of Technology degree from Dr. Akhilesh Das Gupta Institute of Professional Studies, New Delhi, where he graduated with a CGPA of 9.05 in 2024. His academic journey is further highlighted by a strong performance in his 12th grade at Rajkiya Pratibha Vikas Vidyalaya, Civil Lines, Delhi, where he achieved a 92% in 2019.
 
-Satyarth’s professional experience includes a role as a Trainee Intern at the Centre for Railway Information Systems (CRIS) in New Delhi. During his internship from August to November 2023, he contributed to the COA/ICMS group, where he was responsible for computerizing the coaching operations on Indian Railways. His work involved managing the operational activities, maintaining computerized records, monitoring passenger locomotives, and generating MIS reports, ensuring the optimum utilization of resources.
+Satyarth  professional experience includes a role as a Trainee Intern at the Centre for Railway Information Systems (CRIS) in New Delhi. During his internship from August to November 2023, he contributed to the COA/ICMS group, where he was responsible for computerizing the coaching operations on Indian Railways. His work involved managing the operational activities, maintaining computerized records, monitoring passenger locomotives, and generating MIS reports, ensuring the optimum utilization of resources.
 
-In addition to his professional experience, Satyarth has demonstrated his technical expertise through various projects. He developed "BETTERBET: A STOCK JOINT ANALYSIS AND COMPARISON TOOL," a machine learning-based tool that provides predictive insights and sentiment analysis on stock performance. He also created several other web applications, including a dynamic Country API integration, a productivity-focused goal-setting application called 'Focus on Today,' and an interactive restaurant menu webpage.
+In addition to his professional experience Satyarth has demonstrated his technical expertise through various projects. He developed BETTERBET: A STOCK JOINT ANALYSIS AND COMPARISON TOOL, a machine learning-based tool that provides predictive insights and sentiment analysis on stock performance. He also created several other web applications, including a dynamic Country API integration a productivity-focused goal-setting application called Focus on Today and an interactive restaurant menu webpage.
 
 Satyarth’s technical skill set is broad, encompassing languages like JavaScript, HTML, CSS, and PostgreSQL, along with frameworks and libraries such as Tailwind CSS, React, and Redux. His proficiency in developer tools like VS Code, Git, and Google Docs/Sheets further underscores his capabilities.
 
-Outside the technical realm, Satyarth is also recognized for his consistent academic excellence and active participation in societal awareness campaigns as part of the National Service Scheme (NSS). His efforts in advocating for women’s empowerment earned him a certificate of appreciation.
+Outside the technical realm, Satyarth is also recognized for his consistent academic excellence and active participation in societal awareness campaigns as part of the National Service Scheme (NSS). His efforts in advocating for women empowerment earned him a certificate of appreciation.
 
 Satyarth is a proactive and responsible individual, eager to contribute his skills and knowledge in a professional environment. His passion for technology and commitment to continuous learning drive his ambition to excel and innovate in the field of computer science.
 
@@ -62,7 +62,7 @@ Satyarth is a proactive and responsible individual, eager to contribute his skil
                         </p>
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic">
-                        "Satyarth is a skilled Computer Science Engineer with a strong academic background and practical experience. Driven by a passion for technology and innovation, he is committed to making impactful contributions in the field."
+                        Satyarth is a skilled Computer Science Engineer with a strong academic background and practical experience. Driven by a passion for technology and innovation, he is committed to making impactful contributions in the field.
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
                         <div className="self-end">
@@ -121,7 +121,7 @@ Satyarth is a proactive and responsible individual, eager to contribute his skil
                             animate={isSkillRefInView ? { x: 0 } : {}}
                             className="flex gap-4 flex-wrap"
               >
-                {skills.map((skill)=><div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                {skills.map((skill)=><div key={skill} className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                 {skill}
                             </div>)} 
                         </motion.div>
